@@ -1,0 +1,15 @@
+.color-title .textDesc
+{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 10px;
+    font-family: Roboto;
+}
+
+header .logo1 {
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+}

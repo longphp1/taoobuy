@@ -164,7 +164,7 @@ function initFAQ() {
     ]
     const html = arr.map(item => {
         return `<div class="item flex">
-      <img src="../../img/plus.png" alt="">
+      <img src="/img/plus.png" alt="">
       <div class="auto">
         <div class="question">${item.question}</div>
         <div class="answer">${item.answer}</div>
@@ -216,7 +216,7 @@ function initQualityCheck() {
             titleText.innerText = 'Quality Check'
             const close = document.createElement('img')
             close.classList.add('close')
-            close.src = '../../img/close.png'
+            close.src = '/img/close.png'
             close.addEventListener('click', () => mask.remove())
             const title = document.createElement('div')
             title.classList.add('title')

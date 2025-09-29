@@ -142,8 +142,8 @@ function initFAQ() {
     if (!faqList) return
     const arr = [
         {
-            question: 'What is Taoobuysheet?',
-            answer: 'Taoobuysheet is in a sense, a spreadsheet made easy.We combine the best element’s of spreadsheets and top of the line website UI to make your shopping experience very easy.'
+            question: 'What is Cnfanssheet?',
+            answer: 'Cnfanssheet is in a sense, a spreadsheet made easy.We combine the best element’s of spreadsheets and top of the line website UI to make your shopping experience very easy.'
         },
         {
             question: 'How to get more deals?',
@@ -151,7 +151,7 @@ function initFAQ() {
         },
         {
             question: 'Is it easy to use?',
-            answer: 'Taoobuysheet allows for the easiest finding & buying experience for new and veteran replica buyers. With thousands of finds, you’ll never need to go anywhere else.'
+            answer: 'Cnfanssheet allows for the easiest finding & buying experience for new and veteran replica buyers. With thousands of finds, you’ll never need to go anywhere else.'
         },
         {
             question: 'Can I use mobile?',
@@ -187,7 +187,7 @@ function initFooter() {
     const footer = document.getElementById('footer')
     if (!footer) return
     const arr = [
-        'Taoobuysheet.com does not sell any physical products and neither does Taoobuy.',
+        'Cnfanssheet.com does not sell any physical products and neither does Cnfans.',
         'This is purely link\'s to Taobao and Weidian to better educate buyers so they do not get scammed. csfanssheet.com does not support and endorse the sale of counterfeit goods and hopes this information is only used to aid buyers to not get scammed.'
     ]
     arr.forEach(item => {
@@ -201,7 +201,7 @@ function initFooter() {
 //   const buy = document.getElementsByClassName('buy')
 //   if (buy && buy.length > 0) {
 //     for (let i = 0; i < buy.length; i++) {
-//       buy[i].innerHTML = 'View details and Buy on Taoobuy'
+//       buy[i].innerHTML = 'View details and Buy on Cnfans'
 //     }
 //   }
 // }
